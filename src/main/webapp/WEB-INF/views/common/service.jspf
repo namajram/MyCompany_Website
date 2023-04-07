@@ -1,0 +1,23 @@
+<div class="container-fluid text-center bg-grey" id="services">
+	  <h2>SERVICES</h2>
+	  <h4>What we offer</h4>
+	  <br>
+	  <div class="row">
+	    <div class="col-sm-4">
+	       <img src="<c:url value="/resources/images/image5.jpg"></c:url>" class="sm-img img-circle">
+	      <h4>WEB APPLICATION DEVELOPMENT</h4>
+	      <p>A team with expertise of working in myriads of technologies for developing and connecting the numerous structure parts of the entire web application model bandwagon</p>
+	    </div>
+	    <div class="col-sm-4">
+	       <img src="<c:url value="/resources/images/image4.jpg"></c:url>" class="sm-img img-circle">
+	      <h4>MOBILE APP DEVELOPMENT</h4>
+	      <p>From strategy to deployment and acceptance, your enterprise needs a reliable partner for a successful Mobility Implementation.Our experts will work with your enterprise closely; study your business well enough to understand even the minute decision points where the mobile strategy may be a part and model a customized adaptation lifecycle.</p>
+	    </div>
+	    <div class="col-sm-4">
+	       <img src="<c:url value="/resources/images/image2.jpg"></c:url>" class="sm-img img-circle">
+	      <h4>TESTING</h4>
+	      <p>An independent software testing center for doing Usability, Functionality, Security, Performance and Accuracy testing of any kind of apps.</p>
+	    </div>
+	    </div>
+	    <br><br>
+</div>

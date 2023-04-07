@@ -1,0 +1,24 @@
+<div class="container-fluid text-center" id="blog">
+	  <h2>BLOG</h2>
+	  <h4>Our Thoughts</h4>
+	  <div class="row text-center">
+	    <div class="col-sm-4">
+	      <div class="thumbnail">
+	        <p><strong>Artificial Intelligence</strong></p>
+	        <p>Artificial intelligence is intelligence demonstrated by machines, as opposed to intelligence of humans and other animals. Example tasks in which this is done include speech recognition, computer vision, translation between languages, as well as other mappings of inputs.</p>
+	      </div>
+	    </div>
+	    <div class="col-sm-4">
+	      <div class="thumbnail">
+	        <p><strong>ChatBots</strong></p>
+	        <p>A chatbot or chatterbot is a software application used to conduct an online chat conversation via text or text-to-speech, in lieu of providing direct contact with a live human agent.</p>
+	      </div>
+	    </div>
+	    <div class="col-sm-4">
+	      <div class="thumbnail">
+	        <p><strong>Augmented Reality</strong></p>
+	        <p>Augmented reality is an interactive experience that combines the real world and computer-generated content. The content can span multiple sensory modalities, including visual, auditory, haptic, somatosensory and olfactory</p>
+	      </div>
+	    </div>
+		</div>
+	</div>

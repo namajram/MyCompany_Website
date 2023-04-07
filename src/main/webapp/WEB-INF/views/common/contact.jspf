@@ -1,0 +1,38 @@
+
+<div class="container-fluid bg-grey" id="contact">
+	  <h2 class="text-center">CONTACT</h2>
+	  <div class="row">
+	    <div class="col-sm-5">
+	      <p>Contact us and we'll get back to you within 24 hours.</p>
+	      <p><span class="glyphicon glyphicon-map-marker"></span> Chennai, India</p>
+	      <p><span class="glyphicon glyphicon-phone"></span> +8888888888</p>
+	      <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+	    </div>
+	    <div class="col-sm-7">
+			<form:form action="/mycompany/contact" method="post" commandName="contact">
+				<div class="row">
+			        <div class="col-sm-6 form-group">
+			          <form:input class="form-control" id="name" placeholder="Name" type="text" path="username" required="required" />
+			        </div>
+			        <div class="col-sm-6 form-group">
+			          <form:input class="form-control" id="email" placeholder="Email" type="email" path="emailAddress" required="required"/>
+			        </div>
+		      	</div>
+		      	<div class="row">
+			        <div class="col-sm-6 form-group">
+			          <form:input class="form-control" id="phone" placeholder="phone" type="text" path="phoneNumber" required="required"/>
+			        </div>
+			        <div class="col-sm-6 form-group">
+			          <form:input class="form-control" id="date" type="date" path="timetocontact"/>
+			        </div>
+		      	</div>
+			      <form:textarea class="form-control" id="message" placeholder="Message" rows="5" path="message"></form:textarea><br>
+			      <div class="row">
+			        <div class="col-sm-12 form-group">
+			          <button class="btn btn-default pull-right" type="submit">Send</button>
+			        </div>
+			      </div>
+			</form:form>
+	    </div>
+	  </div>
+	</div>
